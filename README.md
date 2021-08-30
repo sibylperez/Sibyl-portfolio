@@ -1,5 +1,5 @@
 # React Portfolio website
 
-Designed by - [shaif Arfan](http://github.com/shaifarfan) | [web cifar](http://webcifar.com)
+Designed by - [Sibyl Perez](https://github.com/sibylperez) | [LinkedIn](https://www.linkedin.com/in/sibyl-perez/)
 
-![](./ReadMeImages/ReadMeBanner.png)
+
