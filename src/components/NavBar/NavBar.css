@@ -53,6 +53,12 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
+    .nav{
+        padding: 0;
+    }
+    .hide-item {
+      display:none;
+    }
     .mobile-menu-icon {
       display: block;
     }
