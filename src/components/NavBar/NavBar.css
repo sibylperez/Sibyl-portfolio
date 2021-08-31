@@ -8,7 +8,7 @@
     background: var(--dark-bg);
 }
 
-.ul {
+ul {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
@@ -22,7 +22,7 @@
 }
 
 .li:hover {
-    background-color: var(--deep-black);
+    background-color: var(--deep-dark);
 }
 
 .li a {
@@ -35,5 +35,49 @@
 }
 
 .li .active {
-    color: white;
+    color: var(--white);
+}
+
+.mobile-menu-icon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 4rem;
+    cursor: pointer;
+    display: none;
+    outline: none;
+}
+
+.closeNavIcon {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-menu-icon {
+      display: block;
+    }
+    .navItems {
+        transition: 0.3s ease transform;
+        background-color: var(--deep-dark);
+        padding: 2rem;
+        width: 90%;
+        max-width: 300px;
+        border-radius: 12px;
+        position: absolute;
+        right: 1rem;
+        top: 1rem
+    }
+    .navItems .closeNavIcon {
+        display: block;
+        width: 3rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+    }
+    .navItems .closeNavIcon * {
+       pointer-events: none; 
+    }
+    .navItems .li {
+        display: block;
+        margin-bottom: 1rem;
+    }
 }
