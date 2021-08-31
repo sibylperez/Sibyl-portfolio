@@ -1,9 +1,10 @@
 import React from 'react';
+import Landing from '../../components/Landing/LandingPhoto';
 
 export default function Home() {
   return (
     <div>
-      <h1>This is Home</h1>
+      <Landing />
     </div>
   );
 }

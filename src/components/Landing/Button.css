@@ -1,0 +1,19 @@
+.btnStyle { 
+    margin-top: 2rem;
+}
+
+.button { 
+    font-size: 2.2rem;
+    background-color: var(--gray-1);
+    padding: 0.7rem 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    border: 2px solid var(--gray-1);
+    color: green
+}
+
+@media only screen and (max-width: 768px){
+    .button  {
+        font-size: 1.8rem ;
+    }
+}
