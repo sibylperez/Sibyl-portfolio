@@ -1,6 +1,6 @@
 import React from 'react';
 import TextLanding from './TextLanding';
-import Button from './Button';
+import Button from '../utils/Button';
 import LandingPhoto from '../../assets/images/hero.png';
 import SocialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
