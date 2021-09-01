@@ -1,0 +1,68 @@
+.aboutBody {
+    padding: 1rem 0;
+}
+
+.aboutBody .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.aboutBody .container .aboutLeft , .aboutRight {
+    flex: 1;
+}
+
+.aboutBody .container .title {
+    text-align: left;
+}
+
+.aboutBody .container .aboutLeft .text {
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+.aboutBody .container .aboutLeft .button2 {
+    margin-top: 0.2rem;
+    margin-left: 9rem;
+    font-size: 2.2rem;
+    padding: 0.5rem;  
+    align-items: center;
+}
+
+@media only screen and (max-width: 950px){
+    .aboutLeft{
+        flex:4;
+    }
+    .aboutRight{
+        flex:3;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutLeft , .aboutRight {
+        margin-top: 0rem;
+    }
+    .aboutBody .container .title {
+        text-align: center;
+    }
+    .text {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .button2{
+        flex-direction: column;
+    }
+    .button2 {
+        width: 60%;
+        text-align: center;
+    }
+    
+}
+
+
+

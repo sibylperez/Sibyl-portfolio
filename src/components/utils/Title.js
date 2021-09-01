@@ -1,9 +1,14 @@
 import React from 'react';
+import './Title.css';
 
-export default function Title() {
+export default function Title({
+  subheading = 'This is subheading',
+  heading = 'This is heading',
+}) {
   return (
     <div className="title">
-      <h1>Test</h1>
+      <p className="p">{subheading}</p>
+      <h2 className="h2">{heading}</h2>
     </div>
   );
 }
