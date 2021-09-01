@@ -58,13 +58,13 @@
     width: 50px;
 }
 
-.socialIndicator, .scrollDown .p {
+.socialIndicator .p, .scrollDown .p {
     font-size: 1.6rem;
     transform: translateY(-70px) rotate(90deg);
     letter-spacing: 0.7rem;
     text-transform: uppercase;
 }
-.socialIndicator, .scrollDown .arrow {
+.socialIndicator .arrow, .scrollDown .arrow {
     max-height: 45px;
     width: 16px;
     margin: 0 auto;
