@@ -32,16 +32,22 @@ export default function ServicesSection() {
           <ServicesIcons
             icon={<MdDesktopMac />}
             title="web design"
-            desc="Design ui/ux for the website to get a unique look."
+            desc="Design UI/UX for the website to get a unique look."
           />
           <ServicesIcons
             icon={<MdCode />}
             title="web dev"
-            desc="Develop the websites. Programming languages: REACT, REDUX, NODEJS, POSTGRESQL"
+            desc="Develop the websites. Programming Languages: 
+            ◉JavaScript
+            ◉React
+            ◉Redux
+            ◉Express
+            ◉Sequelize
+            ◉PostgreSQL"
           />
           <ServicesIcons
             icon={<MdPhonelinkSetup />}
-            title="app Dev"
+            title="app dev"
             desc="Loading.... Studies in progress. "
           />
         </div>

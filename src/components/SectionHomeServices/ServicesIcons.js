@@ -14,7 +14,7 @@ const ItemStyles = styled.div`
     font-size: 2.5rem;
     font-family: 'Montserrat SemiBold';
   }
-  .para {
+  .text {
     margin-top: 2rem;
   }
 `;
