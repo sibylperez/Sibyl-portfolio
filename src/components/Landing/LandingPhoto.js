@@ -31,9 +31,10 @@ export default function Landing() {
             <img className="arrow" src={SocialMediaArrow} alt="icon" />
           </div>
           <div className="socialText">
-            <ul>
-              <li>
+            <ul className="ul">
+              <li className="li">
                 <a
+                  className="a"
                   href="https://www.linkedin.com/in/sibyl-perez/"
                   target="_blank"
                   rel="noreferrer"
@@ -41,8 +42,9 @@ export default function Landing() {
                   LD
                 </a>
               </li>
-              <li>
+              <li className="li">
                 <a
+                  className="a"
                   href="https://github.com/sibylperez"
                   target="_blank"
                   rel="noreferrer"
@@ -50,8 +52,9 @@ export default function Landing() {
                   GH
                 </a>
               </li>
-              <li>
+              <li className="li">
                 <a
+                  className="a"
                   href="https://twitter.com/Lady_Sweet_S"
                   target="_blank"
                   rel="noreferrer"

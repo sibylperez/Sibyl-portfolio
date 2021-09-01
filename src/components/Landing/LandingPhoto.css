@@ -75,10 +75,10 @@
       max-height: 70px;
   }
 
-.socialText ul li {
+.socialText .ul .li {
     margin-bottom: 1rem;
 }
-.socialText ul li a {
+.socialText .ul .li .a {
     display: inline-block;
     font-size: 1.6rem;
     transform: rotate(-90deg);
@@ -120,7 +120,7 @@
     .social .socialIndicator .arrow {
         max-height: 22px;
     }
-    .socialText ul li a {
+    .socialText .ul .li .a {
         font-size: 1.2rem;
         margin-bottom: 1rem;
     }

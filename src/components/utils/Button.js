@@ -5,7 +5,7 @@ import './Button.css';
 export default function Button({ btnLink = 'test', btnText = 'test' }) {
   return (
     <div className="btnStyle">
-      <Link className="button" to={btnLink}>
+      <Link className="button1" to={btnLink}>
         {btnText}
       </Link>
     </div>
