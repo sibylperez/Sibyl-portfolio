@@ -37,7 +37,12 @@ export default function ProjectsSection() {
             if (index >= 5) return;
             return (
               <SwiperSlide key={project.id}>
-                <ProjectItems />;
+                <ProjectItems
+                  title={project.name}
+                  img={project.img}
+                  desc={project.desc}
+                />
+                ;
               </SwiperSlide>
             );
           })}

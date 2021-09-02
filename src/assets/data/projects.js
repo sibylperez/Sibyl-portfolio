@@ -8,37 +8,36 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Loading Game',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      'Fictional website created to show data from RAWG API using React, Redux, Node, and Sequelize.',
     img: UTrackerImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Weather App',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'Application whose objective is to find the current climate of any country in the world. Developed with JavaScript using React',
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Changas Project',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'Website created to offer job services. Have searchbar, filtered by category, geolocation map, reviews, questions and others.',
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'My Own Portfolio',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+      'Development of my own portfolio using ReactJs. Designed with desktoop and responsive view',
     img: CavinImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    name: 'Coming Soon...',
+    desc: 'Project in progress',
     img: ProjectImg,
   },
 ];
