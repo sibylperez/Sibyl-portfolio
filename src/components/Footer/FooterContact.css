@@ -1,15 +1,32 @@
 .footerBody {
-    background-color: var(--deep-dark);
-  padding-top: 10rem;
+  background-color: var(--deep-dark);
+  padding: 3rem;
 }
-.footerBody .containerFooter {
-    display: flex;
-    gap: 3rem;
+ .containerFooter {
+    display: inline-flex;
+    gap: 18rem;
   }
-.footerCol1 {
-    flex: 2;
+  .containerFooter .footerCol1 {
+    flex: 3;
   }
-.footerCol1Title {
+  .containerFooter .footerCol2, .footerCol3 {
+    flex: 1;
+  }
+  .containerFooter .footerCol1 .footerCol1Title {
     font-size: 3.5rem;
     margin-bottom: 1rem;
+}
+
+.copyright {
+    background-color: var(--dark-bg);
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerFooter {
+      flex-direction: column;
+      gap: 3rem;
+    }
 }
