@@ -1,0 +1,15 @@
+.footerBody {
+    background-color: var(--deep-dark);
+  padding-top: 10rem;
+}
+.footerBody .containerFooter {
+    display: flex;
+    gap: 3rem;
+  }
+.footerCol1 {
+    flex: 2;
+  }
+.footerCol1Title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}

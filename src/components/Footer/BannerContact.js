@@ -5,7 +5,7 @@ import './BannerContact.css';
 
 export default function BannerContact() {
   return (
-    <div className="footerBody">
+    <div className="bannerBody">
       <div className="container">
         <div className="contactBanner">
           <TextLanding>Have a project in mind</TextLanding>

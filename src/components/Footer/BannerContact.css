@@ -1,19 +1,19 @@
-.footerBody {
+.bannerBody {
     padding: 5rem 0;
 }
-.footerBody  .contactBanner {
+.bannerBody  .contactBanner {
     background-color: var(--deep-dark);
     border-radius: 12px;
     padding: 5rem 0rem;
     text-align: center;
   }
-.footerBody .contactHeading {
+  .bannerBody .contactHeading {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
 
   @media only screen and (max-width: 768px) {
-    .footerBody .contactHeading {
+    .bannerBody .contactHeading {
       font-size: 2.8rem;
     }
   }
