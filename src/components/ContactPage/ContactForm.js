@@ -21,7 +21,7 @@ export default function ContactForm() {
             <input
               type="hidden"
               name="redirect"
-              value="sibyl-portfolio.netlify.app"
+              value="https://sibyl-portfolio.netlify.app"
             />
 
             <div className="mb-6">
