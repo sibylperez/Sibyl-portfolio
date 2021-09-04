@@ -1,9 +1,12 @@
 import React from 'react';
+import FooterContact from '../../components/Footer/FooterContact';
+import AllProjects from '../../components/ProjectsPage/ProjectsInfo';
 
-export default function Projects() {
+export default function About() {
   return (
     <div>
-      <h1>This is Projects</h1>
+      <AllProjects />
+      <FooterContact />
     </div>
   );
 }
