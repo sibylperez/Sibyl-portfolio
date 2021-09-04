@@ -32,8 +32,10 @@
 }
 
 .about__info .text {
-    max-width: 100%;
+  max-width: 70%;
+  line-height: 0rem;
   }
+
 
 .right img {
     border: 2px solid var(--gray-1);
