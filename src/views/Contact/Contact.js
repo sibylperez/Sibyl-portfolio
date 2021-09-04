@@ -1,9 +1,12 @@
 import React from 'react';
+import ContactInfo from '../../components/ContactPage/ContactInfo';
+import FooterContact from '../../components/Footer/FooterContact';
 
-export default function Contact() {
+export default function About() {
   return (
     <div>
-      <h1>This is Contact</h1>
+      <ContactInfo />
+      <FooterContact />
     </div>
   );
 }
