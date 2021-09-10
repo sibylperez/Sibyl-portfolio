@@ -1,7 +1,8 @@
 
 # React Portfolio website
 
-Designed by - [Sibyl Perez](https://github.com/sibylperez) | [LinkedIn](https://www.linkedin.com/in/sibyl-perez/)
+Designed by - [Sibyl Perez](https://github.com/sibylperez) | [LinkedIn](https://www.linkedin.com/in/sibyl-perez/) <br />
+Tutorial by - [ShaifArfan](https://www.youtube.com/playlist?list=PLRv_Gd5w9e7mO-lGxKkNSWiAlsiZHnQYY)
 
 ![Portfolio4](https://user-images.githubusercontent.com/51963634/132133035-6bf7f1a9-288d-4456-a0ba-c152a42b52c0.jpg)
 
